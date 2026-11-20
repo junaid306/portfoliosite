@@ -1,0 +1,1985 @@
+{
+  "admin_users": [
+    {
+      "id": "usr-super-admin",
+      "name": "Clara Vance (Super Admin)",
+      "email": "admin@ateliervance.studio",
+      "passwordHash": "$2b$10$eYW6e8mt5/niXGUaKQ0nKuQuhGu1sc.rs4BFxCsZrQw.roRaz84rS",
+      "role": "super_admin",
+      "createdAt": "2026-11-20T16:06:40.480Z"
+    },
+    {
+      "id": "usr-editor",
+      "name": "Studio Editor",
+      "email": "editor@ateliervance.studio",
+      "passwordHash": "$2b$10$mXjw6Cnj7T3Ya5mPBHMsJeBYJ1uvCTNXnDOxe0xsHnWBz4ZFRMk2C",
+      "role": "editor",
+      "createdAt": "2026-11-20T16:06:40.480Z"
+    }
+  ],
+  "draft": {
+    "siteTitle": "Clara Vance",
+    "tagline": "Principal Product Designer & Creative Technologist",
+    "seo": {
+      "metaTitle": "Clara Vance — Product Designer & Creative Technologist",
+      "metaDescription": "Portfolio of Clara Vance, crafting editorial digital systems, spatial web interfaces, and durable full-stack products.",
+      "ogTitle": "Clara Vance — Product Designer & Creative Technologist",
+      "ogDescription": "Selected works across design engineering, interactive architecture, and high-craft digital products.",
+      "keywords": "product design, creative technologist, design systems, full-stack portfolio, architecture",
+      "canonicalUrl": ""
+    },
+    "themeControl": {
+      "defaultThemeId": "nordic-monograph",
+      "enableRandomTheme": true,
+      "changeOnEveryVisit": false,
+      "respectDesignOverrides": true
+    },
+    "themes": [
+      {
+        "id": "nordic-monograph",
+        "name": "Nordic Monograph",
+        "description": "Warm alabaster paper with architectural ink and burnt sienna focal accents.",
+        "isDark": false,
+        "enabled": true,
+        "colors": {
+          "primary": "#161616",
+          "secondary": "#52524E",
+          "accent": "#B84A2D",
+          "background": "#F8F7F4",
+          "surface": "#EFECE6",
+          "headingText": "#141413",
+          "bodyText": "#3F3F3C",
+          "mutedText": "#6F6E69",
+          "border": "#DFDBD2",
+          "shadow": "0 10px 30px rgba(20, 20, 19, 0.06)",
+          "cardBg": "#FFFFFF",
+          "cardText": "#161616",
+          "navbarBg": "#F8F7F4",
+          "navbarText": "#161616",
+          "footerBg": "#161616",
+          "footerText": "#F8F7F4",
+          "inputBg": "#FFFFFF",
+          "inputText": "#161616",
+          "inputBorder": "#D5D0C5",
+          "iconColor": "#B84A2D",
+          "buttonBg": "#161616",
+          "buttonText": "#F8F7F4",
+          "buttonHoverBg": "#B84A2D"
+        },
+        "typography": {
+          "headingFont": "Outfit",
+          "bodyFont": "DM Sans",
+          "buttonFont": "DM Sans",
+          "navFont": "DM Sans"
+        },
+        "styles": {
+          "borderRadius": 12,
+          "buttonRadius": 8,
+          "cardShadow": "0 4px 20px rgba(20, 20, 19, 0.05)",
+          "navbarBorder": "1px solid #DFDBD2",
+          "footerBorder": "1px solid #2A2A28"
+        }
+      },
+      {
+        "id": "obsidian-atelier",
+        "name": "Obsidian Atelier",
+        "description": "Deep studio black with brushed brass highlights and sharp architectural contrast.",
+        "isDark": true,
+        "enabled": true,
+        "colors": {
+          "primary": "#F4F4F5",
+          "secondary": "#A1A1AA",
+          "accent": "#D4AF37",
+          "background": "#0A0A0B",
+          "surface": "#141416",
+          "headingText": "#FAFAFA",
+          "bodyText": "#D4D4D8",
+          "mutedText": "#8F8F98",
+          "border": "#27272A",
+          "shadow": "0 14px 36px rgba(0, 0, 0, 0.45)",
+          "cardBg": "#141416",
+          "cardText": "#F4F4F5",
+          "navbarBg": "#0A0A0B",
+          "navbarText": "#F4F4F5",
+          "footerBg": "#050506",
+          "footerText": "#E4E4E7",
+          "inputBg": "#18181B",
+          "inputText": "#FAFAFA",
+          "inputBorder": "#323238",
+          "iconColor": "#D4AF37",
+          "buttonBg": "#D4AF37",
+          "buttonText": "#0A0A0B",
+          "buttonHoverBg": "#E6C65C"
+        },
+        "typography": {
+          "headingFont": "Syne",
+          "bodyFont": "Plus Jakarta Sans",
+          "buttonFont": "Plus Jakarta Sans",
+          "navFont": "Plus Jakarta Sans"
+        },
+        "styles": {
+          "borderRadius": 10,
+          "buttonRadius": 6,
+          "cardShadow": "0 10px 30px rgba(0, 0, 0, 0.35)",
+          "navbarBorder": "1px solid #27272A",
+          "footerBorder": "1px solid #27272A"
+        }
+      },
+      {
+        "id": "editorial-broadsheet",
+        "name": "Editorial Broadsheet",
+        "description": "Gallery ivory paper paired with classic serif titles and cobalt ink accents.",
+        "isDark": false,
+        "enabled": true,
+        "colors": {
+          "primary": "#111827",
+          "secondary": "#4B5563",
+          "accent": "#1D4ED8",
+          "background": "#FAF8F5",
+          "surface": "#F1EDE4",
+          "headingText": "#0F172A",
+          "bodyText": "#334155",
+          "mutedText": "#64748B",
+          "border": "#E2DDD2",
+          "shadow": "0 8px 24px rgba(15, 23, 42, 0.06)",
+          "cardBg": "#FFFFFF",
+          "cardText": "#0F172A",
+          "navbarBg": "#FAF8F5",
+          "navbarText": "#0F172A",
+          "footerBg": "#0F172A",
+          "footerText": "#F8FAFC",
+          "inputBg": "#FFFFFF",
+          "inputText": "#0F172A",
+          "inputBorder": "#CBD5E1",
+          "iconColor": "#1D4ED8",
+          "buttonBg": "#1D4ED8",
+          "buttonText": "#FFFFFF",
+          "buttonHoverBg": "#1E40AF"
+        },
+        "typography": {
+          "headingFont": "Playfair Display",
+          "bodyFont": "Manrope",
+          "buttonFont": "Manrope",
+          "navFont": "Manrope"
+        },
+        "styles": {
+          "borderRadius": 6,
+          "buttonRadius": 4,
+          "cardShadow": "0 2px 14px rgba(15, 23, 42, 0.05)",
+          "navbarBorder": "1px solid #E2DDD2",
+          "footerBorder": "1px solid #1E293B"
+        }
+      },
+      {
+        "id": "brutalist-concrete",
+        "name": "Brutalist Concrete",
+        "description": "Architectural raw concrete tones with bold structural grid lines and crimson accents.",
+        "isDark": false,
+        "enabled": true,
+        "colors": {
+          "primary": "#121212",
+          "secondary": "#4A4A48",
+          "accent": "#E11D48",
+          "background": "#E8E8E3",
+          "surface": "#DCDCD6",
+          "headingText": "#111111",
+          "bodyText": "#2D2D2B",
+          "mutedText": "#5C5C58",
+          "border": "#B8B8B0",
+          "shadow": "0 6px 0px rgba(17, 17, 17, 0.12)",
+          "cardBg": "#F4F4F0",
+          "cardText": "#111111",
+          "navbarBg": "#E8E8E3",
+          "navbarText": "#111111",
+          "footerBg": "#111111",
+          "footerText": "#F4F4F0",
+          "inputBg": "#F4F4F0",
+          "inputText": "#111111",
+          "inputBorder": "#A3A39B",
+          "iconColor": "#E11D48",
+          "buttonBg": "#111111",
+          "buttonText": "#F4F4F0",
+          "buttonHoverBg": "#E11D48"
+        },
+        "typography": {
+          "headingFont": "Space Grotesk",
+          "bodyFont": "DM Sans",
+          "buttonFont": "Space Grotesk",
+          "navFont": "Space Grotesk"
+        },
+        "styles": {
+          "borderRadius": 4,
+          "buttonRadius": 2,
+          "cardShadow": "0 4px 16px rgba(17, 17, 17, 0.06)",
+          "navbarBorder": "1px solid #B8B8B0",
+          "footerBorder": "1px solid #2A2A28"
+        }
+      },
+      {
+        "id": "midnight-cobalt",
+        "name": "Midnight Cobalt",
+        "description": "Deep nocturnal navy surfaces illuminated by crisp glacial cyan typography and CTAs.",
+        "isDark": true,
+        "enabled": true,
+        "colors": {
+          "primary": "#F8FAFC",
+          "secondary": "#94A3B8",
+          "accent": "#38BDF8",
+          "background": "#0B1120",
+          "surface": "#131C31",
+          "headingText": "#F8FAFC",
+          "bodyText": "#CBD5E1",
+          "mutedText": "#94A3B8",
+          "border": "#1E293B",
+          "shadow": "0 14px 36px rgba(2, 6, 23, 0.5)",
+          "cardBg": "#131C31",
+          "cardText": "#F8FAFC",
+          "navbarBg": "#0B1120",
+          "navbarText": "#F8FAFC",
+          "footerBg": "#060A14",
+          "footerText": "#E2E8F0",
+          "inputBg": "#0F172A",
+          "inputText": "#F8FAFC",
+          "inputBorder": "#283548",
+          "iconColor": "#38BDF8",
+          "buttonBg": "#38BDF8",
+          "buttonText": "#082F49",
+          "buttonHoverBg": "#7DD3FC"
+        },
+        "typography": {
+          "headingFont": "Sora",
+          "bodyFont": "Manrope",
+          "buttonFont": "Sora",
+          "navFont": "Manrope"
+        },
+        "styles": {
+          "borderRadius": 14,
+          "buttonRadius": 8,
+          "cardShadow": "0 10px 28px rgba(2, 6, 23, 0.4)",
+          "navbarBorder": "1px solid #1E293B",
+          "footerBorder": "1px solid #1E293B"
+        }
+      },
+      {
+        "id": "botanical-slate",
+        "name": "Botanical Slate",
+        "description": "Mineral sage canvas with expressive serif display headings and deep forest accents.",
+        "isDark": false,
+        "enabled": true,
+        "colors": {
+          "primary": "#1A231E",
+          "secondary": "#4E5D54",
+          "accent": "#2D6A4F",
+          "background": "#F2F4F1",
+          "surface": "#E6EAE4",
+          "headingText": "#141D18",
+          "bodyText": "#2F3D35",
+          "mutedText": "#5F6E65",
+          "border": "#D0D7CE",
+          "shadow": "0 10px 28px rgba(20, 29, 24, 0.06)",
+          "cardBg": "#FAFBF9",
+          "cardText": "#141D18",
+          "navbarBg": "#F2F4F1",
+          "navbarText": "#141D18",
+          "footerBg": "#141D18",
+          "footerText": "#F2F4F1",
+          "inputBg": "#FFFFFF",
+          "inputText": "#141D18",
+          "inputBorder": "#C4CDC1",
+          "iconColor": "#2D6A4F",
+          "buttonBg": "#2D6A4F",
+          "buttonText": "#FFFFFF",
+          "buttonHoverBg": "#1B4332"
+        },
+        "typography": {
+          "headingFont": "Fraunces",
+          "bodyFont": "Plus Jakarta Sans",
+          "buttonFont": "Plus Jakarta Sans",
+          "navFont": "Plus Jakarta Sans"
+        },
+        "styles": {
+          "borderRadius": 12,
+          "buttonRadius": 8,
+          "cardShadow": "0 6px 20px rgba(20, 29, 24, 0.05)",
+          "navbarBorder": "1px solid #D0D7CE",
+          "footerBorder": "1px solid #26332B"
+        }
+      }
+    ],
+    "globalDesign": {
+      "useGlobalColorOverrides": false,
+      "colors": {
+        "primary": "#161616",
+        "secondary": "#52524E",
+        "accent": "#B84A2D",
+        "background": "#F8F7F4",
+        "surface": "#EFECE6",
+        "headingText": "#141413",
+        "bodyText": "#3F3F3C",
+        "mutedText": "#6F6E69",
+        "border": "#DFDBD2",
+        "shadow": "0 10px 30px rgba(20, 20, 19, 0.06)",
+        "cardBg": "#FFFFFF",
+        "cardText": "#161616",
+        "navbarBg": "#F8F7F4",
+        "navbarText": "#161616",
+        "footerBg": "#161616",
+        "footerText": "#F8F7F4",
+        "inputBg": "#FFFFFF",
+        "inputText": "#161616",
+        "inputBorder": "#D5D0C5",
+        "iconColor": "#B84A2D",
+        "buttonBg": "#161616",
+        "buttonText": "#F8F7F4",
+        "buttonHoverBg": "#B84A2D"
+      },
+      "spacing": {
+        "borderRadius": 12,
+        "containerMaxWidth": 1200,
+        "sectionPaddingY": 88,
+        "cardPadding": 24,
+        "elementGap": 24
+      },
+      "gradients": {
+        "useSectionGradients": false,
+        "heroGradient": "linear-gradient(135deg, rgba(184,74,45,0.06) 0%, rgba(248,247,244,0) 60%)",
+        "aboutGradient": "",
+        "skillsGradient": "",
+        "projectsGradient": "",
+        "contactGradient": ""
+      }
+    },
+    "typography": {
+      "headingFont": "Outfit",
+      "bodyFont": "DM Sans",
+      "buttonFont": "DM Sans",
+      "navFont": "DM Sans",
+      "monoFont": "JetBrains Mono",
+      "sectionFonts": {
+        "hero": "",
+        "about": "",
+        "skills": "",
+        "projects": "",
+        "contact": ""
+      },
+      "scale": {
+        "h1Size": 56,
+        "h2Size": 36,
+        "bodySize": 16,
+        "headingWeight": 600,
+        "bodyWeight": 400,
+        "letterSpacing": -0.02,
+        "lineHeight": 1.65
+      },
+      "customFonts": []
+    },
+    "header": {
+      "brandName": "Clara Vance",
+      "logoText": "Clara Vance",
+      "logoImageUrl": "",
+      "showLogoImage": false,
+      "navLinks": [
+        {
+          "id": "nav-about",
+          "label": "About",
+          "href": "#about",
+          "visible": true,
+          "order": 1
+        },
+        {
+          "id": "nav-skills",
+          "label": "Capabilities",
+          "href": "#skills",
+          "visible": true,
+          "order": 2
+        },
+        {
+          "id": "nav-projects",
+          "label": "Selected Work",
+          "href": "#projects",
+          "visible": true,
+          "order": 3
+        },
+        {
+          "id": "nav-contact",
+          "label": "Contact",
+          "href": "#contact",
+          "visible": true,
+          "order": 4
+        }
+      ],
+      "bgColor": "",
+      "textColor": "",
+      "heightPx": 72,
+      "spacingPx": 28,
+      "alignment": "split",
+      "sticky": true,
+      "transparentOnTop": false,
+      "showCtaButton": true,
+      "mobileMenuLabel": "Menu",
+      "mobileShowCta": true
+    },
+    "footer": {
+      "brandName": "Clara Vance",
+      "logoText": "Clara Vance",
+      "logoImageUrl": "",
+      "description": "Independent design engineering studio focused on resilient web architecture, editorial systems, and tactile digital instruments.",
+      "navLinks": [
+        {
+          "id": "fnav-about",
+          "label": "About",
+          "href": "#about",
+          "visible": true,
+          "order": 1
+        },
+        {
+          "id": "fnav-skills",
+          "label": "Capabilities",
+          "href": "#skills",
+          "visible": true,
+          "order": 2
+        },
+        {
+          "id": "fnav-projects",
+          "label": "Selected Work",
+          "href": "#projects",
+          "visible": true,
+          "order": 3
+        },
+        {
+          "id": "fnav-contact",
+          "label": "Contact",
+          "href": "#contact",
+          "visible": true,
+          "order": 4
+        }
+      ],
+      "socialLinks": [
+        {
+          "id": "fsoc-github",
+          "platform": "GitHub",
+          "label": "GitHub",
+          "url": "https://github.com",
+          "visible": true
+        },
+        {
+          "id": "fsoc-linkedin",
+          "platform": "LinkedIn",
+          "label": "LinkedIn",
+          "url": "https://linkedin.com",
+          "visible": true
+        },
+        {
+          "id": "fsoc-dribbble",
+          "platform": "Dribbble",
+          "label": "Dribbble",
+          "url": "https://dribbble.com",
+          "visible": true
+        },
+        {
+          "id": "fsoc-x",
+          "platform": "X",
+          "label": "X / Twitter",
+          "url": "https://x.com",
+          "visible": true
+        }
+      ],
+      "copyright": {
+        "prefix": "©",
+        "year": "2026",
+        "brandName": "Clara Vance Studio",
+        "customText": "All rights reserved. Crafted in Zurich & San Francisco.",
+        "showYear": true
+      },
+      "bgColor": "",
+      "textColor": "",
+      "columns": 3,
+      "paddingY": 64,
+      "alignment": "between"
+    },
+    "sections": [
+      {
+        "id": "sec-hero",
+        "key": "hero",
+        "label": "Hero",
+        "title": "Hero Introduction",
+        "subtitle": "",
+        "description": "",
+        "visible": true,
+        "order": 1,
+        "customFont": "",
+        "bgColor": "",
+        "bgGradient": "",
+        "textColor": "",
+        "paddingY": 72
+      },
+      {
+        "id": "sec-about",
+        "key": "about",
+        "label": "About",
+        "title": "01. Practice & Background",
+        "subtitle": "Bridging typographic craft with systems engineering.",
+        "description": "Over nine years partnering with architectural studios, research labs, and product teams to ship enduring software.",
+        "visible": true,
+        "order": 2,
+        "customFont": "",
+        "bgColor": "",
+        "bgGradient": "",
+        "textColor": "",
+        "paddingY": 88
+      },
+      {
+        "id": "sec-skills",
+        "key": "skills",
+        "label": "Skills",
+        "title": "02. Technical Capabilities",
+        "subtitle": "Core disciplines across interface design, frontend architecture, and backend systems.",
+        "description": "",
+        "visible": true,
+        "order": 3,
+        "customFont": "",
+        "bgColor": "",
+        "bgGradient": "",
+        "textColor": "",
+        "paddingY": 88
+      },
+      {
+        "id": "sec-projects",
+        "key": "projects",
+        "label": "Projects",
+        "title": "03. Selected Works",
+        "subtitle": "Case studies in digital publishing, spatial interfaces, and financial tooling.",
+        "description": "",
+        "visible": true,
+        "order": 4,
+        "customFont": "",
+        "bgColor": "",
+        "bgGradient": "",
+        "textColor": "",
+        "paddingY": 88
+      },
+      {
+        "id": "sec-contact",
+        "key": "contact",
+        "label": "Contact",
+        "title": "04. Commission & Inquiries",
+        "subtitle": "Available for select advisory and product engineering engagements in Q1–Q2.",
+        "description": "Share project scope, timeline, or speaking inquiries directly below.",
+        "visible": true,
+        "order": 5,
+        "customFont": "",
+        "bgColor": "",
+        "bgGradient": "",
+        "textColor": "",
+        "paddingY": 88
+      }
+    ],
+    "hero": {
+      "kicker": "Independent Design Engineer · Zurich & San Francisco",
+      "heading": "Designing tactile software & enduring editorial systems.",
+      "subtitle": "Digital Product Architecture · Design Systems · Creative Engineering",
+      "introduction": "I partner with founders, architectural practices, and technical teams to transform complex workflows into calm, legible, high-performance web applications.",
+      "profileImageUrl": "/src/assets/images/hero_creator_portrait_1795190313130.jpg",
+      "profileImageAlt": "Clara Vance working in architectural concrete studio",
+      "backgroundImageUrl": "",
+      "showBackgroundImage": false,
+      "alignment": "left",
+      "layout": "split",
+      "spacingY": 72,
+      "headingColor": "",
+      "subtitleColor": "",
+      "bodyColor": "",
+      "metrics": [
+        {
+          "id": "m-1",
+          "value": "9+ yrs",
+          "label": "Design Engineering"
+        },
+        {
+          "id": "m-2",
+          "value": "42",
+          "label": "Shipped Production Systems"
+        },
+        {
+          "id": "m-3",
+          "value": "14",
+          "label": "Design Systems Authored"
+        },
+        {
+          "id": "m-4",
+          "value": "99.4%",
+          "label": "Core Web Vitals Score"
+        }
+      ]
+    },
+    "about": {
+      "sectionTitle": "01. Practice & Background",
+      "subtitle": "Bridging typographic craft with systems engineering.",
+      "description": "Trained in industrial typography and distributed systems, I treat software interfaces with the same material rigor as physical objects.",
+      "biography": "My practice operates at the intersection of editorial direction and full-stack TypeScript engineering. Whether building a bespoke publication engine for an architectural monograph or a real-time analytics instrument for institutional finance, every decision begins with hierarchy, latency, and human clarity.\n\nPreviously Lead Design Technologist at Studio Nørd and Senior Frontend Architect at Meridian Systems, I now advise select technology and cultural organizations.",
+      "location": "Zurich, Switzerland · PST / CET",
+      "availability": "Booking Q1 2027 Advisory",
+      "email": "clara@ateliervance.studio",
+      "portraitImageUrl": "/src/assets/images/hero_creator_portrait_1795190313130.jpg",
+      "bgColor": "",
+      "showIcons": true,
+      "educationTitle": "Education",
+      "experienceTitle": "Selected Experience",
+      "education": [
+        {
+          "id": "edu-1",
+          "institution": "ETH Zürich",
+          "degree": "M.Sc. Computer Science & Visual Computing",
+          "period": "2015 — 2017",
+          "details": "Thesis on real-time procedural typography and GPU-accelerated layout engines."
+        },
+        {
+          "id": "edu-2",
+          "institution": "Basel School of Design",
+          "degree": "B.A. Visual Communication & Typography",
+          "period": "2011 — 2015",
+          "details": "Focused on Swiss grid systems, editorial monographs, and interactive media."
+        }
+      ],
+      "experience": [
+        {
+          "id": "exp-1",
+          "company": "Atelier Vance",
+          "role": "Principal Design Engineer",
+          "period": "2022 — Present",
+          "summary": "Directing end-to-end architecture, brand systems, and full-stack React platforms."
+        },
+        {
+          "id": "exp-2",
+          "company": "Meridian Financial Labs",
+          "role": "Staff Frontend Architect",
+          "period": "2019 — 2022",
+          "summary": "Led the multi-asset terminal UI platform serving 18,000+ daily institutional analysts."
+        },
+        {
+          "id": "exp-3",
+          "company": "Studio Nørd Copenhagen",
+          "role": "Senior Creative Technologist",
+          "period": "2017 — 2019",
+          "summary": "Built interactive digital monographs and WebGL exhibition spaces for Nordic architects."
+        }
+      ]
+    },
+    "skillsSection": {
+      "sectionTitle": "02. Technical Capabilities",
+      "subtitle": "Core disciplines across interface design, frontend architecture, and backend systems.",
+      "description": "Filter by discipline to inspect depth across engineering and visual design.",
+      "allCategoryLabel": "All Disciplines",
+      "cardBg": "",
+      "cardBorder": "",
+      "cardText": "",
+      "progressBg": "",
+      "progressFill": "",
+      "showPercentages": true
+    },
+    "skills": [
+      {
+        "id": "sk-1",
+        "name": "React & TypeScript Architecture",
+        "category": "Engineering",
+        "iconName": "Code2",
+        "percentage": 96,
+        "order": 1,
+        "visible": true
+      },
+      {
+        "id": "sk-2",
+        "name": "Design Systems & Tokens",
+        "category": "Design",
+        "iconName": "Layers",
+        "percentage": 95,
+        "order": 2,
+        "visible": true
+      },
+      {
+        "id": "sk-3",
+        "name": "Node.js, Express & MongoDB",
+        "category": "Backend",
+        "iconName": "Database",
+        "percentage": 90,
+        "order": 3,
+        "visible": true
+      },
+      {
+        "id": "sk-4",
+        "name": "Editorial Typography & Grid Systems",
+        "category": "Design",
+        "iconName": "Type",
+        "percentage": 94,
+        "order": 4,
+        "visible": true
+      },
+      {
+        "id": "sk-5",
+        "name": "WebGL, Canvas & Motion Craft",
+        "category": "Engineering",
+        "iconName": "Cpu",
+        "percentage": 88,
+        "order": 5,
+        "visible": true
+      },
+      {
+        "id": "sk-6",
+        "name": "REST APIs & Security Hardening",
+        "category": "Backend",
+        "iconName": "ShieldCheck",
+        "percentage": 89,
+        "order": 6,
+        "visible": true
+      }
+    ],
+    "projectsSection": {
+      "sectionTitle": "03. Selected Works",
+      "subtitle": "Case studies in digital publishing, spatial interfaces, and financial tooling.",
+      "description": "Click any work to inspect project architecture, stack details, and live deployment links.",
+      "allFilterLabel": "All Works",
+      "cardBg": "",
+      "cardBorder": "",
+      "cardText": "",
+      "liveButtonText": "Live Demo",
+      "liveButtonBg": "",
+      "liveButtonTextColor": "",
+      "githubButtonText": "Source Code",
+      "githubButtonBg": "",
+      "githubButtonTextColor": "",
+      "buttonRadius": 8
+    },
+    "projects": [
+      {
+        "id": "proj-1",
+        "title": "Studio Nørd Architectural Monograph",
+        "category": "Editorial Web",
+        "year": "2026",
+        "client": "Studio Nørd Copenhagen",
+        "description": "A bespoke digital archive and responsive broadsheet reading experience showcasing twelve coastal concrete residences, complete with instant typographic scale switching and high-resolution plate inspection.",
+        "imageUrl": "/src/assets/images/project_nordic_monograph_1795190315195.jpg",
+        "technologies": [
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "Node.js"
+        ],
+        "githubUrl": "https://github.com",
+        "liveDemoUrl": "https://example.com",
+        "featured": true,
+        "order": 1,
+        "visible": true
+      },
+      {
+        "id": "proj-2",
+        "title": "Klangwerk Modular Web Synthesizer",
+        "category": "Interactive Tool",
+        "year": "2025",
+        "client": "Klangwerk Audio",
+        "description": "Browser-native polyphonic synthesizer and hardware companion console engineered with Web Audio Worklets, zero-jitter rotary controls, and low-latency oscilloscope telemetry.",
+        "imageUrl": "/src/assets/images/project_kinetic_audio_1795190314910.jpg",
+        "technologies": [
+          "Web Audio API",
+          "TypeScript",
+          "Canvas 2D",
+          "Express"
+        ],
+        "githubUrl": "https://github.com",
+        "liveDemoUrl": "https://example.com",
+        "featured": true,
+        "order": 2,
+        "visible": true
+      },
+      {
+        "id": "proj-3",
+        "title": "Galerie Béton — Luminal Forms",
+        "category": "Spatial Archive",
+        "year": "2025",
+        "client": "Galerie Béton Basel",
+        "description": "Curatorial companion and spatial exhibition catalog for a brutalist light sculpture retrospective, pairing atmospheric gallery documentation with multilingual essay indexing.",
+        "imageUrl": "/src/assets/images/project_spatial_gallery_1795190314258.jpg",
+        "technologies": [
+          "React",
+          "MongoDB",
+          "Motion",
+          "Vite"
+        ],
+        "githubUrl": "https://github.com",
+        "liveDemoUrl": "https://example.com",
+        "featured": false,
+        "order": 3,
+        "visible": true
+      },
+      {
+        "id": "proj-4",
+        "title": "Meridian Portfolio & Risk Ledger",
+        "category": "Product Systems",
+        "year": "2024",
+        "client": "Meridian Capital",
+        "description": "High-density institutional analytics terminal engineered for sub-50ms tabular updates, keyboard-first navigation, and strict WCAG AA legibility across dark and light studio modes.",
+        "imageUrl": "/src/assets/images/project_fintech_ledger_1795190315530.jpg",
+        "technologies": [
+          "TypeScript",
+          "React",
+          "WebSockets",
+          "MongoDB"
+        ],
+        "githubUrl": "https://github.com",
+        "liveDemoUrl": "https://example.com",
+        "featured": false,
+        "order": 4,
+        "visible": true
+      }
+    ],
+    "contact": {
+      "sectionTitle": "04. Commission & Inquiries",
+      "subtitle": "Available for select advisory and product engineering engagements.",
+      "description": "Whether launching a new digital product, refining an existing design system, or commissioning a bespoke web platform, send a note with your goals and timeline.",
+      "email": "clara@ateliervance.studio",
+      "phone": "+41 44 580 24 90",
+      "address": "Limmatquai 94, 8001 Zürich, Switzerland",
+      "socialLinks": [
+        {
+          "id": "csoc-github",
+          "platform": "GitHub",
+          "label": "github.com/claravance",
+          "url": "https://github.com",
+          "visible": true
+        },
+        {
+          "id": "csoc-linkedin",
+          "platform": "LinkedIn",
+          "label": "linkedin.com/in/claravance",
+          "url": "https://linkedin.com",
+          "visible": true
+        },
+        {
+          "id": "csoc-x",
+          "platform": "X",
+          "label": "x.com/claravance",
+          "url": "https://x.com",
+          "visible": true
+        }
+      ],
+      "formLabels": {
+        "nameLabel": "Your Name",
+        "namePlaceholder": "Ada Lovelace",
+        "emailLabel": "Email Address",
+        "emailPlaceholder": "ada@organization.com",
+        "subjectLabel": "Project / Subject",
+        "subjectPlaceholder": "Design system architecture for Q1 launch",
+        "messageLabel": "Project Details",
+        "messagePlaceholder": "Tell me about scope, timeline, and objectives...",
+        "successMessage": "Thank you — your message has been saved and Clara will respond within 24 hours."
+      },
+      "bgColor": "",
+      "layout": "split",
+      "showIcons": true
+    },
+    "buttons": {
+      "headerCta": {
+        "id": "btn-header-cta",
+        "key": "headerCta",
+        "label": "Start a Project",
+        "href": "#contact",
+        "bgColor": "",
+        "textColor": "",
+        "hoverBgColor": "",
+        "borderColor": "",
+        "borderRadius": 8,
+        "fontFamily": "",
+        "fontWeight": 500,
+        "size": "sm",
+        "paddingX": 16,
+        "paddingY": 8,
+        "visible": true
+      },
+      "heroPrimary": {
+        "id": "btn-hero-primary",
+        "key": "heroPrimary",
+        "label": "Explore Selected Works",
+        "href": "#projects",
+        "bgColor": "",
+        "textColor": "",
+        "hoverBgColor": "",
+        "borderColor": "",
+        "borderRadius": 8,
+        "fontFamily": "",
+        "fontWeight": 500,
+        "size": "lg",
+        "paddingX": 24,
+        "paddingY": 12,
+        "visible": true
+      },
+      "heroSecondary": {
+        "id": "btn-hero-secondary",
+        "key": "heroSecondary",
+        "label": "Get in Touch",
+        "href": "#contact",
+        "bgColor": "transparent",
+        "textColor": "",
+        "hoverBgColor": "",
+        "borderColor": "",
+        "borderRadius": 8,
+        "fontFamily": "",
+        "fontWeight": 500,
+        "size": "lg",
+        "paddingX": 24,
+        "paddingY": 12,
+        "visible": true
+      },
+      "aboutCta": {
+        "id": "btn-about-cta",
+        "key": "aboutCta",
+        "label": "Discuss Collaboration",
+        "href": "#contact",
+        "bgColor": "",
+        "textColor": "",
+        "hoverBgColor": "",
+        "borderColor": "",
+        "borderRadius": 8,
+        "fontFamily": "",
+        "fontWeight": 500,
+        "size": "md",
+        "paddingX": 20,
+        "paddingY": 10,
+        "visible": true
+      },
+      "contactSubmit": {
+        "id": "btn-contact-submit",
+        "key": "contactSubmit",
+        "label": "Send Inquiry",
+        "href": "",
+        "bgColor": "",
+        "textColor": "",
+        "hoverBgColor": "",
+        "borderColor": "",
+        "borderRadius": 8,
+        "fontFamily": "",
+        "fontWeight": 600,
+        "size": "lg",
+        "paddingX": 24,
+        "paddingY": 12,
+        "visible": true
+      }
+    },
+    "updatedAt": "2026-11-20T16:12:54.440Z"
+  },
+  "published": {
+    "siteTitle": "Clara Vance",
+    "tagline": "Principal Product Designer & Creative Technologist",
+    "seo": {
+      "metaTitle": "Clara Vance — Product Designer & Creative Technologist",
+      "metaDescription": "Portfolio of Clara Vance, crafting editorial digital systems, spatial web interfaces, and durable full-stack products.",
+      "ogTitle": "Clara Vance — Product Designer & Creative Technologist",
+      "ogDescription": "Selected works across design engineering, interactive architecture, and high-craft digital products.",
+      "keywords": "product design, creative technologist, design systems, full-stack portfolio, architecture",
+      "canonicalUrl": ""
+    },
+    "themeControl": {
+      "defaultThemeId": "nordic-monograph",
+      "enableRandomTheme": true,
+      "changeOnEveryVisit": false,
+      "respectDesignOverrides": true
+    },
+    "themes": [
+      {
+        "id": "nordic-monograph",
+        "name": "Nordic Monograph",
+        "description": "Warm alabaster paper with architectural ink and burnt sienna focal accents.",
+        "isDark": false,
+        "enabled": true,
+        "colors": {
+          "primary": "#161616",
+          "secondary": "#52524E",
+          "accent": "#B84A2D",
+          "background": "#F8F7F4",
+          "surface": "#EFECE6",
+          "headingText": "#141413",
+          "bodyText": "#3F3F3C",
+          "mutedText": "#6F6E69",
+          "border": "#DFDBD2",
+          "shadow": "0 10px 30px rgba(20, 20, 19, 0.06)",
+          "cardBg": "#FFFFFF",
+          "cardText": "#161616",
+          "navbarBg": "#F8F7F4",
+          "navbarText": "#161616",
+          "footerBg": "#161616",
+          "footerText": "#F8F7F4",
+          "inputBg": "#FFFFFF",
+          "inputText": "#161616",
+          "inputBorder": "#D5D0C5",
+          "iconColor": "#B84A2D",
+          "buttonBg": "#161616",
+          "buttonText": "#F8F7F4",
+          "buttonHoverBg": "#B84A2D"
+        },
+        "typography": {
+          "headingFont": "Outfit",
+          "bodyFont": "DM Sans",
+          "buttonFont": "DM Sans",
+          "navFont": "DM Sans"
+        },
+        "styles": {
+          "borderRadius": 12,
+          "buttonRadius": 8,
+          "cardShadow": "0 4px 20px rgba(20, 20, 19, 0.05)",
+          "navbarBorder": "1px solid #DFDBD2",
+          "footerBorder": "1px solid #2A2A28"
+        }
+      },
+      {
+        "id": "obsidian-atelier",
+        "name": "Obsidian Atelier",
+        "description": "Deep studio black with brushed brass highlights and sharp architectural contrast.",
+        "isDark": true,
+        "enabled": true,
+        "colors": {
+          "primary": "#F4F4F5",
+          "secondary": "#A1A1AA",
+          "accent": "#D4AF37",
+          "background": "#0A0A0B",
+          "surface": "#141416",
+          "headingText": "#FAFAFA",
+          "bodyText": "#D4D4D8",
+          "mutedText": "#8F8F98",
+          "border": "#27272A",
+          "shadow": "0 14px 36px rgba(0, 0, 0, 0.45)",
+          "cardBg": "#141416",
+          "cardText": "#F4F4F5",
+          "navbarBg": "#0A0A0B",
+          "navbarText": "#F4F4F5",
+          "footerBg": "#050506",
+          "footerText": "#E4E4E7",
+          "inputBg": "#18181B",
+          "inputText": "#FAFAFA",
+          "inputBorder": "#323238",
+          "iconColor": "#D4AF37",
+          "buttonBg": "#D4AF37",
+          "buttonText": "#0A0A0B",
+          "buttonHoverBg": "#E6C65C"
+        },
+        "typography": {
+          "headingFont": "Syne",
+          "bodyFont": "Plus Jakarta Sans",
+          "buttonFont": "Plus Jakarta Sans",
+          "navFont": "Plus Jakarta Sans"
+        },
+        "styles": {
+          "borderRadius": 10,
+          "buttonRadius": 6,
+          "cardShadow": "0 10px 30px rgba(0, 0, 0, 0.35)",
+          "navbarBorder": "1px solid #27272A",
+          "footerBorder": "1px solid #27272A"
+        }
+      },
+      {
+        "id": "editorial-broadsheet",
+        "name": "Editorial Broadsheet",
+        "description": "Gallery ivory paper paired with classic serif titles and cobalt ink accents.",
+        "isDark": false,
+        "enabled": true,
+        "colors": {
+          "primary": "#111827",
+          "secondary": "#4B5563",
+          "accent": "#1D4ED8",
+          "background": "#FAF8F5",
+          "surface": "#F1EDE4",
+          "headingText": "#0F172A",
+          "bodyText": "#334155",
+          "mutedText": "#64748B",
+          "border": "#E2DDD2",
+          "shadow": "0 8px 24px rgba(15, 23, 42, 0.06)",
+          "cardBg": "#FFFFFF",
+          "cardText": "#0F172A",
+          "navbarBg": "#FAF8F5",
+          "navbarText": "#0F172A",
+          "footerBg": "#0F172A",
+          "footerText": "#F8FAFC",
+          "inputBg": "#FFFFFF",
+          "inputText": "#0F172A",
+          "inputBorder": "#CBD5E1",
+          "iconColor": "#1D4ED8",
+          "buttonBg": "#1D4ED8",
+          "buttonText": "#FFFFFF",
+          "buttonHoverBg": "#1E40AF"
+        },
+        "typography": {
+          "headingFont": "Playfair Display",
+          "bodyFont": "Manrope",
+          "buttonFont": "Manrope",
+          "navFont": "Manrope"
+        },
+        "styles": {
+          "borderRadius": 6,
+          "buttonRadius": 4,
+          "cardShadow": "0 2px 14px rgba(15, 23, 42, 0.05)",
+          "navbarBorder": "1px solid #E2DDD2",
+          "footerBorder": "1px solid #1E293B"
+        }
+      },
+      {
+        "id": "brutalist-concrete",
+        "name": "Brutalist Concrete",
+        "description": "Architectural raw concrete tones with bold structural grid lines and crimson accents.",
+        "isDark": false,
+        "enabled": true,
+        "colors": {
+          "primary": "#121212",
+          "secondary": "#4A4A48",
+          "accent": "#E11D48",
+          "background": "#E8E8E3",
+          "surface": "#DCDCD6",
+          "headingText": "#111111",
+          "bodyText": "#2D2D2B",
+          "mutedText": "#5C5C58",
+          "border": "#B8B8B0",
+          "shadow": "0 6px 0px rgba(17, 17, 17, 0.12)",
+          "cardBg": "#F4F4F0",
+          "cardText": "#111111",
+          "navbarBg": "#E8E8E3",
+          "navbarText": "#111111",
+          "footerBg": "#111111",
+          "footerText": "#F4F4F0",
+          "inputBg": "#F4F4F0",
+          "inputText": "#111111",
+          "inputBorder": "#A3A39B",
+          "iconColor": "#E11D48",
+          "buttonBg": "#111111",
+          "buttonText": "#F4F4F0",
+          "buttonHoverBg": "#E11D48"
+        },
+        "typography": {
+          "headingFont": "Space Grotesk",
+          "bodyFont": "DM Sans",
+          "buttonFont": "Space Grotesk",
+          "navFont": "Space Grotesk"
+        },
+        "styles": {
+          "borderRadius": 4,
+          "buttonRadius": 2,
+          "cardShadow": "0 4px 16px rgba(17, 17, 17, 0.06)",
+          "navbarBorder": "1px solid #B8B8B0",
+          "footerBorder": "1px solid #2A2A28"
+        }
+      },
+      {
+        "id": "midnight-cobalt",
+        "name": "Midnight Cobalt",
+        "description": "Deep nocturnal navy surfaces illuminated by crisp glacial cyan typography and CTAs.",
+        "isDark": true,
+        "enabled": true,
+        "colors": {
+          "primary": "#F8FAFC",
+          "secondary": "#94A3B8",
+          "accent": "#38BDF8",
+          "background": "#0B1120",
+          "surface": "#131C31",
+          "headingText": "#F8FAFC",
+          "bodyText": "#CBD5E1",
+          "mutedText": "#94A3B8",
+          "border": "#1E293B",
+          "shadow": "0 14px 36px rgba(2, 6, 23, 0.5)",
+          "cardBg": "#131C31",
+          "cardText": "#F8FAFC",
+          "navbarBg": "#0B1120",
+          "navbarText": "#F8FAFC",
+          "footerBg": "#060A14",
+          "footerText": "#E2E8F0",
+          "inputBg": "#0F172A",
+          "inputText": "#F8FAFC",
+          "inputBorder": "#283548",
+          "iconColor": "#38BDF8",
+          "buttonBg": "#38BDF8",
+          "buttonText": "#082F49",
+          "buttonHoverBg": "#7DD3FC"
+        },
+        "typography": {
+          "headingFont": "Sora",
+          "bodyFont": "Manrope",
+          "buttonFont": "Sora",
+          "navFont": "Manrope"
+        },
+        "styles": {
+          "borderRadius": 14,
+          "buttonRadius": 8,
+          "cardShadow": "0 10px 28px rgba(2, 6, 23, 0.4)",
+          "navbarBorder": "1px solid #1E293B",
+          "footerBorder": "1px solid #1E293B"
+        }
+      },
+      {
+        "id": "botanical-slate",
+        "name": "Botanical Slate",
+        "description": "Mineral sage canvas with expressive serif display headings and deep forest accents.",
+        "isDark": false,
+        "enabled": true,
+        "colors": {
+          "primary": "#1A231E",
+          "secondary": "#4E5D54",
+          "accent": "#2D6A4F",
+          "background": "#F2F4F1",
+          "surface": "#E6EAE4",
+          "headingText": "#141D18",
+          "bodyText": "#2F3D35",
+          "mutedText": "#5F6E65",
+          "border": "#D0D7CE",
+          "shadow": "0 10px 28px rgba(20, 29, 24, 0.06)",
+          "cardBg": "#FAFBF9",
+          "cardText": "#141D18",
+          "navbarBg": "#F2F4F1",
+          "navbarText": "#141D18",
+          "footerBg": "#141D18",
+          "footerText": "#F2F4F1",
+          "inputBg": "#FFFFFF",
+          "inputText": "#141D18",
+          "inputBorder": "#C4CDC1",
+          "iconColor": "#2D6A4F",
+          "buttonBg": "#2D6A4F",
+          "buttonText": "#FFFFFF",
+          "buttonHoverBg": "#1B4332"
+        },
+        "typography": {
+          "headingFont": "Fraunces",
+          "bodyFont": "Plus Jakarta Sans",
+          "buttonFont": "Plus Jakarta Sans",
+          "navFont": "Plus Jakarta Sans"
+        },
+        "styles": {
+          "borderRadius": 12,
+          "buttonRadius": 8,
+          "cardShadow": "0 6px 20px rgba(20, 29, 24, 0.05)",
+          "navbarBorder": "1px solid #D0D7CE",
+          "footerBorder": "1px solid #26332B"
+        }
+      }
+    ],
+    "globalDesign": {
+      "useGlobalColorOverrides": false,
+      "colors": {
+        "primary": "#161616",
+        "secondary": "#52524E",
+        "accent": "#B84A2D",
+        "background": "#F8F7F4",
+        "surface": "#EFECE6",
+        "headingText": "#141413",
+        "bodyText": "#3F3F3C",
+        "mutedText": "#6F6E69",
+        "border": "#DFDBD2",
+        "shadow": "0 10px 30px rgba(20, 20, 19, 0.06)",
+        "cardBg": "#FFFFFF",
+        "cardText": "#161616",
+        "navbarBg": "#F8F7F4",
+        "navbarText": "#161616",
+        "footerBg": "#161616",
+        "footerText": "#F8F7F4",
+        "inputBg": "#FFFFFF",
+        "inputText": "#161616",
+        "inputBorder": "#D5D0C5",
+        "iconColor": "#B84A2D",
+        "buttonBg": "#161616",
+        "buttonText": "#F8F7F4",
+        "buttonHoverBg": "#B84A2D"
+      },
+      "spacing": {
+        "borderRadius": 12,
+        "containerMaxWidth": 1200,
+        "sectionPaddingY": 88,
+        "cardPadding": 24,
+        "elementGap": 24
+      },
+      "gradients": {
+        "useSectionGradients": false,
+        "heroGradient": "linear-gradient(135deg, rgba(184,74,45,0.06) 0%, rgba(248,247,244,0) 60%)",
+        "aboutGradient": "",
+        "skillsGradient": "",
+        "projectsGradient": "",
+        "contactGradient": ""
+      }
+    },
+    "typography": {
+      "headingFont": "Outfit",
+      "bodyFont": "DM Sans",
+      "buttonFont": "DM Sans",
+      "navFont": "DM Sans",
+      "monoFont": "JetBrains Mono",
+      "sectionFonts": {
+        "hero": "",
+        "about": "",
+        "skills": "",
+        "projects": "",
+        "contact": ""
+      },
+      "scale": {
+        "h1Size": 56,
+        "h2Size": 36,
+        "bodySize": 16,
+        "headingWeight": 600,
+        "bodyWeight": 400,
+        "letterSpacing": -0.02,
+        "lineHeight": 1.65
+      },
+      "customFonts": []
+    },
+    "header": {
+      "brandName": "Clara Vance",
+      "logoText": "Clara Vance",
+      "logoImageUrl": "",
+      "showLogoImage": false,
+      "navLinks": [
+        {
+          "id": "nav-about",
+          "label": "About",
+          "href": "#about",
+          "visible": true,
+          "order": 1
+        },
+        {
+          "id": "nav-skills",
+          "label": "Capabilities",
+          "href": "#skills",
+          "visible": true,
+          "order": 2
+        },
+        {
+          "id": "nav-projects",
+          "label": "Selected Work",
+          "href": "#projects",
+          "visible": true,
+          "order": 3
+        },
+        {
+          "id": "nav-contact",
+          "label": "Contact",
+          "href": "#contact",
+          "visible": true,
+          "order": 4
+        }
+      ],
+      "bgColor": "",
+      "textColor": "",
+      "heightPx": 72,
+      "spacingPx": 28,
+      "alignment": "split",
+      "sticky": true,
+      "transparentOnTop": false,
+      "showCtaButton": true,
+      "mobileMenuLabel": "Menu",
+      "mobileShowCta": true
+    },
+    "footer": {
+      "brandName": "Clara Vance",
+      "logoText": "Clara Vance",
+      "logoImageUrl": "",
+      "description": "Independent design engineering studio focused on resilient web architecture, editorial systems, and tactile digital instruments.",
+      "navLinks": [
+        {
+          "id": "fnav-about",
+          "label": "About",
+          "href": "#about",
+          "visible": true,
+          "order": 1
+        },
+        {
+          "id": "fnav-skills",
+          "label": "Capabilities",
+          "href": "#skills",
+          "visible": true,
+          "order": 2
+        },
+        {
+          "id": "fnav-projects",
+          "label": "Selected Work",
+          "href": "#projects",
+          "visible": true,
+          "order": 3
+        },
+        {
+          "id": "fnav-contact",
+          "label": "Contact",
+          "href": "#contact",
+          "visible": true,
+          "order": 4
+        }
+      ],
+      "socialLinks": [
+        {
+          "id": "fsoc-github",
+          "platform": "GitHub",
+          "label": "GitHub",
+          "url": "https://github.com",
+          "visible": true
+        },
+        {
+          "id": "fsoc-linkedin",
+          "platform": "LinkedIn",
+          "label": "LinkedIn",
+          "url": "https://linkedin.com",
+          "visible": true
+        },
+        {
+          "id": "fsoc-dribbble",
+          "platform": "Dribbble",
+          "label": "Dribbble",
+          "url": "https://dribbble.com",
+          "visible": true
+        },
+        {
+          "id": "fsoc-x",
+          "platform": "X",
+          "label": "X / Twitter",
+          "url": "https://x.com",
+          "visible": true
+        }
+      ],
+      "copyright": {
+        "prefix": "©",
+        "year": "2026",
+        "brandName": "Clara Vance Studio",
+        "customText": "All rights reserved. Crafted in Zurich & San Francisco.",
+        "showYear": true
+      },
+      "bgColor": "",
+      "textColor": "",
+      "columns": 3,
+      "paddingY": 64,
+      "alignment": "between"
+    },
+    "sections": [
+      {
+        "id": "sec-hero",
+        "key": "hero",
+        "label": "Hero",
+        "title": "Hero Introduction",
+        "subtitle": "",
+        "description": "",
+        "visible": true,
+        "order": 1,
+        "customFont": "",
+        "bgColor": "",
+        "bgGradient": "",
+        "textColor": "",
+        "paddingY": 72
+      },
+      {
+        "id": "sec-about",
+        "key": "about",
+        "label": "About",
+        "title": "01. Practice & Background",
+        "subtitle": "Bridging typographic craft with systems engineering.",
+        "description": "Over nine years partnering with architectural studios, research labs, and product teams to ship enduring software.",
+        "visible": true,
+        "order": 2,
+        "customFont": "",
+        "bgColor": "",
+        "bgGradient": "",
+        "textColor": "",
+        "paddingY": 88
+      },
+      {
+        "id": "sec-skills",
+        "key": "skills",
+        "label": "Skills",
+        "title": "02. Technical Capabilities",
+        "subtitle": "Core disciplines across interface design, frontend architecture, and backend systems.",
+        "description": "",
+        "visible": true,
+        "order": 3,
+        "customFont": "",
+        "bgColor": "",
+        "bgGradient": "",
+        "textColor": "",
+        "paddingY": 88
+      },
+      {
+        "id": "sec-projects",
+        "key": "projects",
+        "label": "Projects",
+        "title": "03. Selected Works",
+        "subtitle": "Case studies in digital publishing, spatial interfaces, and financial tooling.",
+        "description": "",
+        "visible": true,
+        "order": 4,
+        "customFont": "",
+        "bgColor": "",
+        "bgGradient": "",
+        "textColor": "",
+        "paddingY": 88
+      },
+      {
+        "id": "sec-contact",
+        "key": "contact",
+        "label": "Contact",
+        "title": "04. Commission & Inquiries",
+        "subtitle": "Available for select advisory and product engineering engagements in Q1–Q2.",
+        "description": "Share project scope, timeline, or speaking inquiries directly below.",
+        "visible": true,
+        "order": 5,
+        "customFont": "",
+        "bgColor": "",
+        "bgGradient": "",
+        "textColor": "",
+        "paddingY": 88
+      }
+    ],
+    "hero": {
+      "kicker": "Independent Design Engineer · Zurich & San Francisco",
+      "heading": "Designing tactile software & enduring editorial systems.",
+      "subtitle": "Digital Product Architecture · Design Systems · Creative Engineering",
+      "introduction": "I partner with founders, architectural practices, and technical teams to transform complex workflows into calm, legible, high-performance web applications.",
+      "profileImageUrl": "/src/assets/images/hero_creator_portrait_1795190313130.jpg",
+      "profileImageAlt": "Clara Vance working in architectural concrete studio",
+      "backgroundImageUrl": "",
+      "showBackgroundImage": false,
+      "alignment": "left",
+      "layout": "split",
+      "spacingY": 72,
+      "headingColor": "",
+      "subtitleColor": "",
+      "bodyColor": "",
+      "metrics": [
+        {
+          "id": "m-1",
+          "value": "9+ yrs",
+          "label": "Design Engineering"
+        },
+        {
+          "id": "m-2",
+          "value": "42",
+          "label": "Shipped Production Systems"
+        },
+        {
+          "id": "m-3",
+          "value": "14",
+          "label": "Design Systems Authored"
+        },
+        {
+          "id": "m-4",
+          "value": "99.4%",
+          "label": "Core Web Vitals Score"
+        }
+      ]
+    },
+    "about": {
+      "sectionTitle": "01. Practice & Background",
+      "subtitle": "Bridging typographic craft with systems engineering.",
+      "description": "Trained in industrial typography and distributed systems, I treat software interfaces with the same material rigor as physical objects.",
+      "biography": "My practice operates at the intersection of editorial direction and full-stack TypeScript engineering. Whether building a bespoke publication engine for an architectural monograph or a real-time analytics instrument for institutional finance, every decision begins with hierarchy, latency, and human clarity.\n\nPreviously Lead Design Technologist at Studio Nørd and Senior Frontend Architect at Meridian Systems, I now advise select technology and cultural organizations.",
+      "location": "Zurich, Switzerland · PST / CET",
+      "availability": "Booking Q1 2027 Advisory",
+      "email": "clara@ateliervance.studio",
+      "portraitImageUrl": "/src/assets/images/hero_creator_portrait_1795190313130.jpg",
+      "bgColor": "",
+      "showIcons": true,
+      "educationTitle": "Education",
+      "experienceTitle": "Selected Experience",
+      "education": [
+        {
+          "id": "edu-1",
+          "institution": "ETH Zürich",
+          "degree": "M.Sc. Computer Science & Visual Computing",
+          "period": "2015 — 2017",
+          "details": "Thesis on real-time procedural typography and GPU-accelerated layout engines."
+        },
+        {
+          "id": "edu-2",
+          "institution": "Basel School of Design",
+          "degree": "B.A. Visual Communication & Typography",
+          "period": "2011 — 2015",
+          "details": "Focused on Swiss grid systems, editorial monographs, and interactive media."
+        }
+      ],
+      "experience": [
+        {
+          "id": "exp-1",
+          "company": "Atelier Vance",
+          "role": "Principal Design Engineer",
+          "period": "2022 — Present",
+          "summary": "Directing end-to-end architecture, brand systems, and full-stack React platforms."
+        },
+        {
+          "id": "exp-2",
+          "company": "Meridian Financial Labs",
+          "role": "Staff Frontend Architect",
+          "period": "2019 — 2022",
+          "summary": "Led the multi-asset terminal UI platform serving 18,000+ daily institutional analysts."
+        },
+        {
+          "id": "exp-3",
+          "company": "Studio Nørd Copenhagen",
+          "role": "Senior Creative Technologist",
+          "period": "2017 — 2019",
+          "summary": "Built interactive digital monographs and WebGL exhibition spaces for Nordic architects."
+        }
+      ]
+    },
+    "skillsSection": {
+      "sectionTitle": "02. Technical Capabilities",
+      "subtitle": "Core disciplines across interface design, frontend architecture, and backend systems.",
+      "description": "Filter by discipline to inspect depth across engineering and visual design.",
+      "allCategoryLabel": "All Disciplines",
+      "cardBg": "",
+      "cardBorder": "",
+      "cardText": "",
+      "progressBg": "",
+      "progressFill": "",
+      "showPercentages": true
+    },
+    "skills": [
+      {
+        "id": "sk-1",
+        "name": "React & TypeScript Architecture",
+        "category": "Engineering",
+        "iconName": "Code2",
+        "percentage": 96,
+        "order": 1,
+        "visible": true
+      },
+      {
+        "id": "sk-2",
+        "name": "Design Systems & Tokens",
+        "category": "Design",
+        "iconName": "Layers",
+        "percentage": 95,
+        "order": 2,
+        "visible": true
+      },
+      {
+        "id": "sk-3",
+        "name": "Node.js, Express & MongoDB",
+        "category": "Backend",
+        "iconName": "Database",
+        "percentage": 90,
+        "order": 3,
+        "visible": true
+      },
+      {
+        "id": "sk-4",
+        "name": "Editorial Typography & Grid Systems",
+        "category": "Design",
+        "iconName": "Type",
+        "percentage": 94,
+        "order": 4,
+        "visible": true
+      },
+      {
+        "id": "sk-5",
+        "name": "WebGL, Canvas & Motion Craft",
+        "category": "Engineering",
+        "iconName": "Cpu",
+        "percentage": 88,
+        "order": 5,
+        "visible": true
+      },
+      {
+        "id": "sk-6",
+        "name": "REST APIs & Security Hardening",
+        "category": "Backend",
+        "iconName": "ShieldCheck",
+        "percentage": 89,
+        "order": 6,
+        "visible": true
+      }
+    ],
+    "projectsSection": {
+      "sectionTitle": "03. Selected Works",
+      "subtitle": "Case studies in digital publishing, spatial interfaces, and financial tooling.",
+      "description": "Click any work to inspect project architecture, stack details, and live deployment links.",
+      "allFilterLabel": "All Works",
+      "cardBg": "",
+      "cardBorder": "",
+      "cardText": "",
+      "liveButtonText": "Live Demo",
+      "liveButtonBg": "",
+      "liveButtonTextColor": "",
+      "githubButtonText": "Source Code",
+      "githubButtonBg": "",
+      "githubButtonTextColor": "",
+      "buttonRadius": 8
+    },
+    "projects": [
+      {
+        "id": "proj-1",
+        "title": "Studio Nørd Architectural Monograph",
+        "category": "Editorial Web",
+        "year": "2026",
+        "client": "Studio Nørd Copenhagen",
+        "description": "A bespoke digital archive and responsive broadsheet reading experience showcasing twelve coastal concrete residences, complete with instant typographic scale switching and high-resolution plate inspection.",
+        "imageUrl": "/src/assets/images/project_nordic_monograph_1795190315195.jpg",
+        "technologies": [
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "Node.js"
+        ],
+        "githubUrl": "https://github.com",
+        "liveDemoUrl": "https://example.com",
+        "featured": true,
+        "order": 1,
+        "visible": true
+      },
+      {
+        "id": "proj-2",
+        "title": "Klangwerk Modular Web Synthesizer",
+        "category": "Interactive Tool",
+        "year": "2025",
+        "client": "Klangwerk Audio",
+        "description": "Browser-native polyphonic synthesizer and hardware companion console engineered with Web Audio Worklets, zero-jitter rotary controls, and low-latency oscilloscope telemetry.",
+        "imageUrl": "/src/assets/images/project_kinetic_audio_1795190314910.jpg",
+        "technologies": [
+          "Web Audio API",
+          "TypeScript",
+          "Canvas 2D",
+          "Express"
+        ],
+        "githubUrl": "https://github.com",
+        "liveDemoUrl": "https://example.com",
+        "featured": true,
+        "order": 2,
+        "visible": true
+      },
+      {
+        "id": "proj-3",
+        "title": "Galerie Béton — Luminal Forms",
+        "category": "Spatial Archive",
+        "year": "2025",
+        "client": "Galerie Béton Basel",
+        "description": "Curatorial companion and spatial exhibition catalog for a brutalist light sculpture retrospective, pairing atmospheric gallery documentation with multilingual essay indexing.",
+        "imageUrl": "/src/assets/images/project_spatial_gallery_1795190314258.jpg",
+        "technologies": [
+          "React",
+          "MongoDB",
+          "Motion",
+          "Vite"
+        ],
+        "githubUrl": "https://github.com",
+        "liveDemoUrl": "https://example.com",
+        "featured": false,
+        "order": 3,
+        "visible": true
+      },
+      {
+        "id": "proj-4",
+        "title": "Meridian Portfolio & Risk Ledger",
+        "category": "Product Systems",
+        "year": "2024",
+        "client": "Meridian Capital",
+        "description": "High-density institutional analytics terminal engineered for sub-50ms tabular updates, keyboard-first navigation, and strict WCAG AA legibility across dark and light studio modes.",
+        "imageUrl": "/src/assets/images/project_fintech_ledger_1795190315530.jpg",
+        "technologies": [
+          "TypeScript",
+          "React",
+          "WebSockets",
+          "MongoDB"
+        ],
+        "githubUrl": "https://github.com",
+        "liveDemoUrl": "https://example.com",
+        "featured": false,
+        "order": 4,
+        "visible": true
+      }
+    ],
+    "contact": {
+      "sectionTitle": "04. Commission & Inquiries",
+      "subtitle": "Available for select advisory and product engineering engagements.",
+      "description": "Whether launching a new digital product, refining an existing design system, or commissioning a bespoke web platform, send a note with your goals and timeline.",
+      "email": "clara@ateliervance.studio",
+      "phone": "+41 44 580 24 90",
+      "address": "Limmatquai 94, 8001 Zürich, Switzerland",
+      "socialLinks": [
+        {
+          "id": "csoc-github",
+          "platform": "GitHub",
+          "label": "github.com/claravance",
+          "url": "https://github.com",
+          "visible": true
+        },
+        {
+          "id": "csoc-linkedin",
+          "platform": "LinkedIn",
+          "label": "linkedin.com/in/claravance",
+          "url": "https://linkedin.com",
+          "visible": true
+        },
+        {
+          "id": "csoc-x",
+          "platform": "X",
+          "label": "x.com/claravance",
+          "url": "https://x.com",
+          "visible": true
+        }
+      ],
+      "formLabels": {
+        "nameLabel": "Your Name",
+        "namePlaceholder": "Ada Lovelace",
+        "emailLabel": "Email Address",
+        "emailPlaceholder": "ada@organization.com",
+        "subjectLabel": "Project / Subject",
+        "subjectPlaceholder": "Design system architecture for Q1 launch",
+        "messageLabel": "Project Details",
+        "messagePlaceholder": "Tell me about scope, timeline, and objectives...",
+        "successMessage": "Thank you — your message has been saved and Clara will respond within 24 hours."
+      },
+      "bgColor": "",
+      "layout": "split",
+      "showIcons": true
+    },
+    "buttons": {
+      "headerCta": {
+        "id": "btn-header-cta",
+        "key": "headerCta",
+        "label": "Start a Project",
+        "href": "#contact",
+        "bgColor": "",
+        "textColor": "",
+        "hoverBgColor": "",
+        "borderColor": "",
+        "borderRadius": 8,
+        "fontFamily": "",
+        "fontWeight": 500,
+        "size": "sm",
+        "paddingX": 16,
+        "paddingY": 8,
+        "visible": true
+      },
+      "heroPrimary": {
+        "id": "btn-hero-primary",
+        "key": "heroPrimary",
+        "label": "Explore Selected Works",
+        "href": "#projects",
+        "bgColor": "",
+        "textColor": "",
+        "hoverBgColor": "",
+        "borderColor": "",
+        "borderRadius": 8,
+        "fontFamily": "",
+        "fontWeight": 500,
+        "size": "lg",
+        "paddingX": 24,
+        "paddingY": 12,
+        "visible": true
+      },
+      "heroSecondary": {
+        "id": "btn-hero-secondary",
+        "key": "heroSecondary",
+        "label": "Get in Touch",
+        "href": "#contact",
+        "bgColor": "transparent",
+        "textColor": "",
+        "hoverBgColor": "",
+        "borderColor": "",
+        "borderRadius": 8,
+        "fontFamily": "",
+        "fontWeight": 500,
+        "size": "lg",
+        "paddingX": 24,
+        "paddingY": 12,
+        "visible": true
+      },
+      "aboutCta": {
+        "id": "btn-about-cta",
+        "key": "aboutCta",
+        "label": "Discuss Collaboration",
+        "href": "#contact",
+        "bgColor": "",
+        "textColor": "",
+        "hoverBgColor": "",
+        "borderColor": "",
+        "borderRadius": 8,
+        "fontFamily": "",
+        "fontWeight": 500,
+        "size": "md",
+        "paddingX": 20,
+        "paddingY": 10,
+        "visible": true
+      },
+      "contactSubmit": {
+        "id": "btn-contact-submit",
+        "key": "contactSubmit",
+        "label": "Send Inquiry",
+        "href": "",
+        "bgColor": "",
+        "textColor": "",
+        "hoverBgColor": "",
+        "borderColor": "",
+        "borderRadius": 8,
+        "fontFamily": "",
+        "fontWeight": 600,
+        "size": "lg",
+        "paddingX": 24,
+        "paddingY": 12,
+        "visible": true
+      }
+    },
+    "updatedAt": "2026-11-20T16:12:54.440Z"
+  },
+  "media_assets": [
+    {
+      "id": "asset-hero-portrait",
+      "name": "Studio Creator Portrait",
+      "url": "/src/assets/images/hero_creator_portrait_1795190313130.jpg",
+      "type": "image",
+      "mimeType": "image/jpeg",
+      "sizeBytes": 245760,
+      "createdAt": "2026-11-01T10:00:00.000Z"
+    },
+    {
+      "id": "asset-nordic-monograph",
+      "name": "Nordic Monograph Case Study",
+      "url": "/src/assets/images/project_nordic_monograph_1795190315195.jpg",
+      "type": "image",
+      "mimeType": "image/jpeg",
+      "sizeBytes": 218400,
+      "createdAt": "2026-11-01T10:05:00.000Z"
+    },
+    {
+      "id": "asset-kinetic-audio",
+      "name": "Modular Web Synthesizer",
+      "url": "/src/assets/images/project_kinetic_audio_1795190314910.jpg",
+      "type": "image",
+      "mimeType": "image/jpeg",
+      "sizeBytes": 264100,
+      "createdAt": "2026-11-01T10:10:00.000Z"
+    },
+    {
+      "id": "asset-spatial-gallery",
+      "name": "Luminal Forms Spatial Gallery",
+      "url": "/src/assets/images/project_spatial_gallery_1795190314258.jpg",
+      "type": "image",
+      "mimeType": "image/jpeg",
+      "sizeBytes": 291200,
+      "createdAt": "2026-11-01T10:15:00.000Z"
+    },
+    {
+      "id": "asset-fintech-ledger",
+      "name": "Meridian Financial Workspace",
+      "url": "/src/assets/images/project_fintech_ledger_1795190315530.jpg",
+      "type": "image",
+      "mimeType": "image/jpeg",
+      "sizeBytes": 234500,
+      "createdAt": "2026-11-01T10:20:00.000Z"
+    }
+  ],
+  "contact_messages": [
+    {
+      "id": "msg-welcome-1",
+      "name": "Henrik Lindqvist",
+      "email": "henrik@nordarchitects.dk",
+      "subject": "Digital Monograph Platform Commission",
+      "message": "Hello Clara — we loved the responsive broadsheet layout from your Copenhagen case study. We are preparing a 2027 exhibition catalog and would like to discuss architecture and timeline.",
+      "status": "unread",
+      "adminNotes": "",
+      "createdAt": "2026-11-20T11:06:40.481Z"
+    },
+    {
+      "id": "msg-welcome-2",
+      "name": "Maya Chen",
+      "email": "maya.chen@meridianlabs.io",
+      "subject": "Design System Audit Follow-Up",
+      "message": "Hi Clara, thanks for sharing the token architecture documentation. Our engineering team is ready to schedule the Phase 2 handoff workshop next Tuesday.",
+      "status": "read",
+      "adminNotes": "Scheduled for Tuesday 10:00 CET.",
+      "createdAt": "2026-11-18T16:06:40.481Z"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Atelier Vance — Dynamic Portfolio & CMS",
+  "description": "Database-driven personal portfolio with six customizable themes, typography controls, and full visual CMS admin panel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
